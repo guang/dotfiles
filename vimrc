@@ -27,10 +27,12 @@ Bundle 'jelera/vim-javascript-syntax'
 Bundle 'LaTeX-Box-Team/LaTeX-Box'
 Bundle 'Lokaltog/powerline'
 Bundle 'tpope/vim-fugitive'
-Bundle 'scrooloose/nerdtree'
 Bundle 'klen/python-mode'
 Bundle 'davidhalter/jedi-vim'
 Bundle 'wincent/command-t'
+Bundle 'ervandew/supertab'
+Bundle 'kien/rainbow_parentheses.vim'
+Plugin 'derekwyatt/vim-scala'
 
 call vundle#end()
 filetype plugin indent on
@@ -55,11 +57,11 @@ set winheight=999
 
 " ================ Indentation ====================
 
-set autoindent
-set smartindent
+" set autoindent
+" set smartindent
 set smarttab
 set shiftwidth=2
-set softtabstop=2
+" set softtabstop=2
 set tabstop=2
 set expandtab
 
