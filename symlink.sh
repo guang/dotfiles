@@ -4,7 +4,7 @@
 ############################
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="vimrc vim zshrc"           # list of files/folders to symlink in homedir
+files="vimrc zshrc"           # list of files/folders to symlink in homedir
 
 # create dotfiles_old in homedir
 echo -n "Creating $olddir for backup of any existing dotfiles in ~ ..."
@@ -26,6 +26,17 @@ done
 
 
 ############################
+# Manually git clone vundle cos submodules are hard
+############################
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+
+############################
 # Does PluginInstall on packages via vundle
 ############################
 vim -c 'PluginInstall' -c 'qa!'
+
+
+############################
+# Manually fix command-t problem
+############################
