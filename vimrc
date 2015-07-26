@@ -21,7 +21,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Bundle 'altercation/vim-colors-solarized'
+Plugin 'altercation/vim-colors-solarized'
 Bundle 'pangloss/vim-javascript'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'LaTeX-Box-Team/LaTeX-Box'
@@ -39,8 +39,8 @@ filetype plugin indent on
 
 " ================ Colortheme Setup ====================
 
-:set background=light
 colorscheme solarized
+:set background=light
 
 " ================ Turn Off Swap Files ====================
 
