@@ -118,3 +118,6 @@ let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
 " Don't autofold code
 let g:pymode_folding = 0
+
+" Increase max line length
+let g:pymode_options_max_line_length = 120
